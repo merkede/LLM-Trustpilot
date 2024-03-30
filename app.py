@@ -2,9 +2,8 @@ import streamlit as st
 import pandas as pd
 
 
-data_url = "https://raw.githubusercontent.com/merkede/LLM-Trustpilot/main"
-data = pd.read_csv(data_url)/Trustpilot_LLM.csv)
-
+data_url = "https://raw.githubusercontent.com/merkede/LLM-Trustpilot/main/Trustpilot_LLM.csv"
+data = pd.read_csv(data_url)
 
 # Define regular expressions
 topic_category_regex = r"Topic Category: (.*?)\n"
